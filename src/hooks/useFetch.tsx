@@ -20,7 +20,7 @@ const useFetch = <T,> ( url:string, initialState?:T) => {
                 setLoading(false)
             }
         })()
-    }, [url])
+    }, [initialState, url])
 
     return { data, error, loading }
 }

@@ -16,7 +16,7 @@ function App() {
           <Route path='/' element={<Dashboard />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
-          <Route path="/:userId" element={<WebRTC />} />
+          <Route path="/:isVideoEnabled" element={<WebRTC />} />
         </Routes>
       </div>
     </Router>
